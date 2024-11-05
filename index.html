@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEAM</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/carrousel.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" crossorigin="anonymous">
+</head>
+<body>
+    <section class="container" id="carousel">
+        <div class="carousel">
+            <div class="team">
+                <h1 class="team__title">our team</h1>
+                <h3 class="team__sub">professional pc repair team</h3>
+                <p class="team__txt">Since our establishment, we have gathered a taam of didicated PC repair professional.</p>
+    
+                <div class="slide-buttons ">
+                    <a href="#" id="back-button" class="arrow back"><i class="fa-solid fa-arrow-left"></i></a>
+                    <a href="#" id="forward-button" class="arrow forward"><i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="content" id="slide-container">
+                <article class="card slide" data-slideIndex="0">
+                    <figure>
+                        <img src="./img/foto1.jpg" alt="foto1">
+                    </figure>
+                    <h3>John Tuff</h3>
+                    <p>Field Technician.</p>
+                </article>
+    
+                <article class="card slide" data-slideIndex="1">
+                    <figure>
+                        <img src="./img/foto3.jpg" alt="foto3">
+                    </figure>
+                    <h3>Frank McMillan</h3>
+                    <p>General Manager.</p>
+                </article>
+    
+                <article class="card slide" data-slideIndex="2">
+                    <figure>
+                        <img src="./img/foto4.jpg" alt="foto4">
+                    </figure>
+                    <h3>John Smith</h3>
+                    <p>Field Technician.</p>
+                </article>
+    
+                <article class="card slide" data-slideIndex="3">
+                    <figure>
+                        <img src="./img/foto5.jpg" alt="foto5">
+                    </figure>
+                    <h3>John Tardy</h3>
+                    <p>Field Technician.</p>
+                </article>
+            </div>
+        </div>
+        <div class="slide-indicators">
+            <a href="#" class="slide-indicator active"></a>
+            <a href="#" class="slide-indicator"></a>
+            <a href="#" class="slide-indicator"></a>
+            <a href="#" class="slide-indicator"></a>
+        </div>
+    </section>
+
+    <script src="./js/carrousel.js"></script>
+</body>
+</html>

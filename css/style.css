@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+:root{
+    --font: "Open Sans", serif;
+
+    --purple: #172DA6;
+    --grayText: #939393;
+}
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; 
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-family: var(--font);
+}
+.container{
+    width: max(90%, 120rem);
+    margin: auto;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+img{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+.carousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.team{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.team__title,
+.team__sub,
+.team__txt{margin: 0 0 2rem 0;}
+.team__title{
+    font-size: 4rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.team__sub{
+    text-transform: uppercase;
+    color: var(--purple);
+    font-weight: 600;
+}
+.team__txt{
+    color: var(--grayText);
+    font-weight: 500;
+    width: 80%;
+}
+
